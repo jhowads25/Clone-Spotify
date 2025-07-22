@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css?v=3" />
+    <title>Clone Spotify</title>
+</head>
+
+<body>
+    <header class="unified-header">
+    <div class="header-left">
+        <a href="#" class="nav-item-active spotify-logo">
+            <i class="fa-brands fa-spotify fa-2x"></i>
+            <span>Clone Spotify</span>
+        </a>
+        <a href="#" class="nav-item"><i class="fa fa-home"></i></a>
+    </div>
+    <div class="header-center">
+        <div class="search-bar">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="O que você quer ouvir?">
+        </div>
+    </div>
+    <div class="header-right">
+        <span class="dev-credit">Desenvolvido por Jhonathan Fernandes</span>
+        <a href="#" class="signup-link">Inscrever-se</a>
+        <button class="login-button">Entrar</button>
+    </div>
+</header>
+
+    <div class="main-container">
+        <nav class="sidebar">
+            <div class="sidebar-section library">
+                <div class="library-header">
+                    <div class="library-header-content">
+                        <i class="fa-solid fa-book"></i>
+                        <span>Sua Biblioteca</span>
+                    </div>
+                    <button class="icon-button"><i class="fa-solid fa-plus"></i></button>
+                </div>
+                <div class="library-content">
+                    <div class="library-box">
+                        <h5>Crie sua primeira playlist</h5>
+                        <p>É fácil, vamos te ajudar.</p>
+                        <button class="action-button">Criar playlist</button>
+                    </div>
+                    <div class="library-box">
+                        <h5>Que tal seguir um podcast novo?</h5>
+                        <p>Avisaremos você sobre novos episódios.</p>
+                        <button class="action-button">Explore podcasts</button>
+                    </div>
+                </div>
+                <div class="sidebar-footer">
+                    <a href="#">Legal</a>
+                    <a href="#">Segurança e Centro de Privacidade</a>
+                    <a href="#">Política de Privacidade</a>
+                    <a href="#">Cookies</a>
+                    <a href="#">Sobre anúcios</a>
+                    <a href="#">Acessibilidade</a>
+                    <a href="#">Cookies</a>
+                </div>
+                <button class="lang-button"><i class="fa-solid fa-globe"></i><span>Português do Brasil</span></button>
+            </div>
+        </nav>
+
+        <main class="main-content-area">
+            <div class="main-content-scroll"> <section class="content-section" id="trending-section">
+                    <div class="section-header">
+                        <h2>Músicas em alta</h2>
+                        <a href="#" class="show-all-link">Mostrar tudo</a>
+                    </div>
+                    <div class="card-grid"></div>
+                </section>
+
+                <section class="content-section" id="artists-section">
+                    <div class="section-header">
+                        <h2>Artistas Populares</h2>
+                        <div class="carousel-nav">
+                            <button class="carousel-btn prev-btn" data-carousel="artists-carousel" disabled><i class="fas fa-chevron-left"></i></button>
+                            <button class="carousel-btn next-btn" data-carousel="artists-carousel"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="carousel-container" id="artists-carousel">
+                        <div class="carousel-track">
+                            </div>
+                    </div>
+                </section>
+
+                <section class="content-section" id="albums-section">
+                    <div class="section-header">
+                        <h2>Singles e álbuns que todo mundo gosta</h2>
+                        <a href="#" class="show-all-link">Mostrar tudo</a>
+                    </div>
+                    <div class="card-grid"></div>
+                </section>
+
+            </div> </main> </div> <footer class="premium-banner">
+        <div class="banner-text">
+            <p>Testar o Premium de graça</p>
+            <span>Inscreva-se para curtir música ilimitada e sem anúncios.</span>
+        </div>
+        <button class="banner-button">Inscreva-se grátis</button>
+    </footer>
+
+    <script src="./scripts.js"></script>
+</body>
+
+</html>
