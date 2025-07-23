@@ -7,12 +7,13 @@ Este é um projeto de clone da interface do usuário do Spotify, desenvolvido co
 -   **Interface Responsiva:** Adapta-se a diferentes tamanhos de tela (desktop, tablet, mobile).
 -   **Navegação Básica:** Estrutura de navegação principal.
 -   **Exibição de Conteúdo:** Layout para álbuns, artistas e playlists.
--  
+-   **(Opcional, se implementado):**
+
 ## 🚀 Tecnologias Utilizadas
 
 -   **HTML5:** Estrutura semântica da página.
 -   **CSS3:** Estilização e layout (Flexbox, Grid CSS para responsividade).
--   **JavaScript:** Para interatividade 
+-   **JavaScript:** Para interatividade.
 -   **Git & GitHub:** Controle de versão e hospedagem do código.
 
 ## ⚙️ Como Rodar o Projeto Localmente
@@ -22,9 +23,8 @@ Siga estes passos para ter uma cópia do projeto rodando em sua máquina:
 1.  **Clone o repositório:**
     Abra seu terminal ou prompt de comando e execute:
     ```bash
-    git clone [https://github.com/jhowads25/Clone-Spotify.git](https://github.com/jhrowads25/Clone-Spotify.git)
+    git clone [https://github.com/jhowads25/Clone-Spotify.git]
     ```
-    *(Nota: Você pode copiar o link exato do seu próprio repositório no GitHub depois de criá-lo, mas esse link já é baseado no seu nome de usuário.)*
 
 2.  **Navegue até a pasta do projeto:**
     ```bash
@@ -37,6 +37,9 @@ Siga estes passos para ter uma cópia do projeto rodando em sua máquina:
 ## 🧑‍💻 Autor
 
 **Jhonathan Fernandes**
- [GitHub](https://github.com/JhonathanFernandes)
- [LinkedIn](www.linkedin.com/in/jhonathan-fernandes) 
+-   [GitHub](https://github.com/jhowads25)
+-   [LinkedIn](https://www.linkedin.com/in/jhonathan-fernandes) 
+-   [Instagram](https://www.instagram.com/jhowfernandesbig?igsh=ZmJwNWhvdmYyczRq)
+-   [Email](jhonathanads25@gmail.com)
 
+---
